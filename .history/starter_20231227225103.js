@@ -33,14 +33,10 @@ const cardsArray = [
   },
 ];
 const grid = document.querySelector(".grid");
-const cardsArrayMerge = cardsArray
-  .concat(cardsArray)
-  .sort(() => 0.5 - Math.random());
-
-cardsArrayMerge.forEach((item) => {
+cardsArray.forEach((item) => {
   const card = document.createElement("div");
   card.classList.add("card");
   card.setAttribute("data-name", item.name);
-  card.style.backgroundImage = `url(${item.img})`;
-  grid.appendChild(card);
+  card.style.backgroundImage = `urrl($(item.img))`;
+  grid.appendChild("");
 });

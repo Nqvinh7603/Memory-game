@@ -33,9 +33,7 @@ const cardsArray = [
   },
 ];
 const grid = document.querySelector(".grid");
-const cardsArrayMerge = cardsArray
-  .concat(cardsArray)
-  .sort(() => 0.5 - Math.random());
+const cardsArrayMerge = cardsArray.concat(cardsArray).sort;
 
 cardsArrayMerge.forEach((item) => {
   const card = document.createElement("div");
