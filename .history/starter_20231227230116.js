@@ -32,8 +32,6 @@ const cardsArray = [
     img: "img/burger.png",
   },
 ];
-let count = 0;
-let preCard;
 const grid = document.querySelector(".grid");
 const cardsArrayMerge = cardsArray
   .concat(cardsArray)
@@ -46,14 +44,4 @@ cardsArrayMerge.forEach((item) => {
   card.style.backgroundImage = `url(${item.img})`;
   grid.appendChild(card);
 });
-grid.addEventListener("click", function (event) {
-  const clicked = event.target;
-  if (clicked.nodeName == "SECTION" || preCard == clicked) {
-    return;
-  }
-  if (count < 2) {
-    count++;
-    clicked.classList.add("selected");
-  }
-  preCard = clicked;
-});
+grid.addEventListener;

@@ -48,7 +48,7 @@ cardsArrayMerge.forEach((item) => {
 });
 grid.addEventListener("click", function (event) {
   const clicked = event.target;
-  if (clicked.nodeName == "SECTION" || preCard == clicked) {
+  if (clicked.nodeName == "SECTION") {
     return;
   }
   if (count < 2) {
