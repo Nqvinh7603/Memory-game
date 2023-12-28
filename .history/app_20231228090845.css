@@ -6,7 +6,7 @@
 
 body {
   margin: 20px 0;
-  background: #6589f9;
+  background: #0f4dd2;
 }
 .grid {
   max-width: 660px;
@@ -18,7 +18,7 @@ body {
 
 .card {
   margin: 5px;
-  background-color: #6589f9;
+  background-color: #f965d4;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -30,7 +30,7 @@ body {
   background-image: none !important;
   pointer-events: none;
 }
-
+/* Uncomment this later*/
 .card {
   position: relative;
   transition: all 0.4s linear;
@@ -52,7 +52,7 @@ body {
   -webkit-backface-visibility: hidden;
 }
 .front {
-  background: #fab942 url("./img/question.gif") no-repeat center center /
+  background: #9b8151 url("./img/question.gif") no-repeat center center /
     contain;
 }
 .back {
